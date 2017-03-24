@@ -24,6 +24,10 @@ $(function() {
       $("#result").show();
       $("#resultName").text(nameInput);
       $("#ruby-result").show();
+    } else {
+      $("#result").show();
+      $("#resultName").text(nameInput);
+      $("#php-result").show();
     }
 
 
