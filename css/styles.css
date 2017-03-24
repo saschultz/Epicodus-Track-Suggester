@@ -10,22 +10,22 @@
 #result {
   display: none;
   text-align: center;
-  font-size: 18px;
+  font-size: 26px;
   font-weight: bold;
 }
-#design-result {
+ #design-result, #java-result, #ruby-result, #php-result {
   display: none;
   text-align: center;
   font-size: 18px;
 }
- #java-result, #ruby-result, #php-result {
-  display: none;
+#logo {
+  width: 30%;
   text-align: center;
-  font-size: 18px;
 }
 img {
   padding: 15px;
 }
+
 .track-border {
   border-bottom: solid;
   border-width: thin;
@@ -34,3 +34,17 @@ img {
 .col-lg-6 {
   text-align: left;
 }
+.track-name {
+  font-weight: bold;
+}
+/*.container {
+  min-height: 100%;
+  position: relative;
+}
+.footer {
+   position:fixed;
+   bottom:0;
+   width:100%;
+   height:200px;   /* Height of the footer */
+   /*background:#6cf;*/
+/*}*/
