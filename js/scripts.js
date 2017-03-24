@@ -13,15 +13,19 @@ $(function() {
     var companyInput = $("#company").val();
 
     if (endDevelopmentInput === "front-end" && (mobileInput === "Not interested" || mobileInput === "Not sure") && contentInput === "It is content heavy, but still very readable and pleasing" && (companyInput === "A new start up" || companyInput === "A small, but established local company" || companyInput === "A large corporate enterprise")) {
-
       $("#result").show();
       $("#resultName").text(nameInput);
       $("#design-result").show();
+    } else if (endDevelopmentInput === "back-end" && mobileInput === "Of course" && contentInput === "There is a lot of interactivity with the user" && (companyInput === "A small, but established local company" || companyInput === "A large corporate enterprise")) {
+      $("#result").show();
+      $("#resultName").text(nameInput);
+      $("#java-result").show();
     }
 
+
+
+
     // $("#result").show();
-
-
     // console.log(nameInput);
     // console.log(endDevelopmentInput);
     // console.log(companyInput)
