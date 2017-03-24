@@ -9,7 +9,13 @@
 }
 #result {
   display: none;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
 }
+
 #design-result, #java-result, #ruby-result, #php-result {
   display: none;
+  text-align: center;
+  font-size: 18px;
 }
