@@ -13,9 +13,21 @@
   font-size: 18px;
   font-weight: bold;
 }
-
-#design-result, #java-result, #ruby-result, #php-result {
+#design-result {
   display: none;
   text-align: center;
   font-size: 18px;
+}
+ #java-result, #ruby-result, #php-result {
+  display: none;
+  text-align: center;
+  font-size: 18px;
+}
+img {
+  padding: 15px;
+}
+.track-border {
+  border-bottom: solid;
+  border-width: thin;
+  border-color: #7b36db;
 }
