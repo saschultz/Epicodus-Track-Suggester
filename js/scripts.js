@@ -10,6 +10,7 @@ $(function() {
     var endDevelopmentInput = $("input:radio[name=end-development]:checked").val();
     var companyInput = $("#company").val();
     var mobileInput = $("#mobile").val();
+    var contentInput = $("#content").val();
 
     $("#result").show();
     $("#resultName").text(nameInput);
@@ -17,6 +18,7 @@ $(function() {
     console.log(endDevelopmentInput);
     console.log(companyInput)
     console.log(mobileInput);
+    console.log(contentInput);
 
 
     event.preventDefault();
