@@ -17,14 +17,13 @@
   font-size: 26px;
   font-weight: bold;
 }
- #design-result, #java-result, #ruby-result, #php-result {
+#design-result, #java-result, #ruby-result, #php-result {
   display: none;
   text-align: center;
   font-size: 18px;
 }
 #logo {
   width: 30%;
-  text-align: center;
 }
 select, input {
   max-width: 400px;
@@ -49,14 +48,3 @@ form {
 .track-name {
   font-weight: bold;
 }
-/*.container {
-  min-height: 100%;
-  position: relative;
-}
-.footer {
-   position:fixed;
-   bottom:0;
-   width:100%;
-   height:200px;   /* Height of the footer */
-   /*background:#6cf;*/
-/*}*/
