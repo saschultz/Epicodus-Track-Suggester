@@ -31,3 +31,6 @@ img {
   border-width: thin;
   border-color: #7b36db;
 }
+.col-lg-6 {
+  text-align: left;
+}
