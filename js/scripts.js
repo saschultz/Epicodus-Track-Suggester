@@ -8,12 +8,15 @@ $(function() {
   $("#formOne").submit(function(event) {
     var nameInput = $("#name").val();
     var endDevelopmentInput = $("input:radio[name=end-development]:checked").val();
-    console.log(endDevelopmentInput);
     var companyInput = $("#company").val();
-    console.log(companyInput)
+    var mobileInput = $("#mobile").val();
+
     $("#result").show();
     $("#resultName").text(nameInput);
     console.log(nameInput);
+    console.log(endDevelopmentInput);
+    console.log(companyInput)
+    console.log(mobileInput);
 
 
     event.preventDefault();
