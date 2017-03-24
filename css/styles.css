@@ -10,3 +10,6 @@
 #result {
   display: none;
 }
+#design-result, #java-result, #ruby-result, #php-result {
+  display: none;
+}
