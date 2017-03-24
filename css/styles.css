@@ -7,8 +7,12 @@
   background-color: #9959f9;
   color: white;
 }
+#intro {
+  font-size: 16px;
+}
 #result {
   display: none;
+  padding: 15px;
   text-align: center;
   font-size: 26px;
   font-weight: bold;
@@ -22,14 +26,22 @@
   width: 30%;
   text-align: center;
 }
+select, input {
+  max-width: 400px;
+}
 img {
   padding: 15px;
 }
-
+form {
+  font-size: 18px;
+}
 .track-border {
   border-bottom: solid;
   border-width: thin;
   border-color: #7b36db;
+}
+.row {
+  padding: 15px;
 }
 .col-lg-6 {
   text-align: left;

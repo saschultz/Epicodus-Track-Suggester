@@ -16,7 +16,7 @@ $(function() {
       $("#result").show();
       $("#resultName").text(nameInput);
       $("#java-result").show();
-    } else if (endDevelopmentInput === "back-end" && mobileInput === "Not interested" && contentInput === "There is a lot of interactivity with the user" && (companyInput === "A new start up" || companyInput === "A small, but established local company")) {
+    } else if (endDevelopmentInput === "back-end" && (mobileInput === "Not interested" || mobileInput === "Not sure") && contentInput === "There is a lot of interactivity with the user" && (companyInput === "A new start up" || companyInput === "A small, but established local company")) {
       $("#result").show();
       $("#resultName").text(nameInput);
       $("#ruby-result").show();
