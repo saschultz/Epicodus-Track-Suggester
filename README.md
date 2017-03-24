@@ -6,7 +6,7 @@
 
 ## Description
 
-Epicodus is a vocational school for those who want to learn how to code. The school offers multiple tracks to teach students different programming languages. This webpage serves as a track suggester to prospective Epicodus students. When the user fills out the form, the form will return the track that matches their inputs. There are four possible track results; CSS/Design, Java/Android, Ruby/Rails, and PHP/Drupal.
+Epicodus is a vocational school for those who want to learn how to code. The school offers multiple tracks to teach students different programming languages. This webpage serves as a track suggester to prospective Epicodus students. When the user fills out the form, the form will return the track that matches their inputs. There are four possible track results; CSS/Design, Java/Android, Ruby/Rails, and PHP/Drupal. To view the page go to: https://saschultz.github.io/Epicodus-Track-Suggester/
 
 ## Setup/Installation Requirements
 
