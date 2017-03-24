@@ -3,3 +3,6 @@
   background-color: #00B3B4;
   color: white;
 }
+#result {
+  display: none;
+}
