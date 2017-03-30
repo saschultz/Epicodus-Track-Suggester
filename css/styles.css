@@ -10,15 +10,8 @@
 #intro {
   font-size: 16px;
 }
-#result {
-  display: none;
-  padding: 15px;
-  text-align: center;
-  font-size: 26px;
-  font-weight: bold;
-}
+
 #design-result, #java-result, #ruby-result, #php-result {
-  display: none;
   text-align: center;
   font-size: 18px;
 }
